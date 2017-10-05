@@ -1,0 +1,53 @@
+@media only screen and (max-width: 900px){
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .row{
+        width: 100%;
+        margin: 0 20px;
+        padding-top: 20px;
+    }
+
+    body{
+        font-size: 20px;
+    }
+
+    .hero-text h1{
+
+        font-size: 200%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+    .hero-text{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .logo{
+        margin: 0 auto;
+    }
+
+    .flex-it:nth-child(2){
+        margin: 10px auto;
+    }
+
+    .hero-text h1{
+        font-size: 160%;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        
+    }
+
+    .hero-text{
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .hero-text a{
+        margin: 5px auto;
+    }
+}

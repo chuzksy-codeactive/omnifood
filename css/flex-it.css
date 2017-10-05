@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-it{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+/*.icon-features{
+    display: flex;
+}*/
+
+/*.icon-content{
+    flex-grow: 1;
+}*/
+.content{
+    display: flex;
+    color: #555;
+    padding-top: 40px;
+}
+
+/* FEATURE MEALS*/
+.meals-showcase{
+    display: flex;
+}
+
+/* FEATURE STEPS */
+.show-steps{
+    display: flex;
+}
+
+.works-step{
+    display: flex;
+}
+
+/* FEATURE CITIES */
+.cities-box{
+    display: flex;
+    padding-top: 20px;
+}
+
+.city-feature{
+    display: flex;
+}
+
+/* FEATURE TESTIMONIALS */
+.testimonials{
+    display: flex;
+}
+
+/* PLAN BOX */
+.plan{
+    display: flex;
+}
+.plan-box{
+    align-self: flex-start;
+}
+
+/* CONTACT FORM */
+.form-row{
+    display: flex;
+    padding: 10px;
+}
